@@ -143,7 +143,7 @@ fetch("medianas.json").then(r => r.json()).then(d => {
     if (!geral.mediana) return;              // sem dado confiável → não lista
     totalN += geral.n || 0;
     const cel = s => (s && s.mediana && s.n >= 15)
-      ? `<td class="num">${brl(s.mediana)} <small>n=${s.n}</small></td>`
+      ? `<td class="num">${brl(s.mediana)} <small>${s.n} anúncios</small></td>`
       : `<td class="num"><small>—</small></td>`;
     const novos = [];
     if (nv.kabum && nv.kabum.min) novos.push({v: nv.kabum.min, l: "Kabum"});
