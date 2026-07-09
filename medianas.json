@@ -2,7 +2,8 @@
   "gerado_em": "2026-07-09",
   "fonte": "Mercado Livre + OLX (usado) · Kabum + ML (novo)",
   "moeda": "BRL",
-  "afiliado_ativo": false,
+  "afiliado_ativo": true,
+  "amazon_tag": "precojusto0be-20",
   "exclude_global": [
     "computador",
     "pcgamer",
@@ -49,14 +50,14 @@
           "max": 3125
         },
         "olx": {
-          "n": 72,
-          "mediana": 1998,
+          "n": 9,
+          "mediana": 1999,
           "min": 1600,
           "max": 2799
         },
         "geral": {
-          "n": 81,
-          "mediana": 1999,
+          "n": 18,
+          "mediana": 2000,
           "min": 1600,
           "max": 3125
         }
@@ -72,7 +73,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-4060_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-4060_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-4060",
         "amazon": "https://www.amazon.com.br/s?k=rtx%204060%20placa%20de%20video"
       }
@@ -96,16 +97,16 @@
           "max": 4006
         },
         "olx": {
-          "n": 66,
+          "n": 7,
           "mediana": 2000,
-          "min": 1400,
-          "max": 3000
+          "min": 1849,
+          "max": 2597
         },
         "geral": {
-          "n": 93,
-          "mediana": 2149,
-          "min": 1400,
-          "max": 3600
+          "n": 35,
+          "mediana": 2400,
+          "min": 1849,
+          "max": 4006
         }
       },
       "novo": {
@@ -114,12 +115,12 @@
           "min": 3147
         },
         "ml": {
-          "n": 21,
+          "n": 22,
           "min": 2458
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3070_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3070_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-3070",
         "amazon": "https://www.amazon.com.br/s?k=rtx%203070%20placa%20de%20video"
       }
@@ -141,16 +142,16 @@
           "max": 2550
         },
         "olx": {
-          "n": 95,
-          "mediana": 1799,
-          "min": 1300,
-          "max": 2800
+          "n": 12,
+          "mediana": 1800,
+          "min": 1650,
+          "max": 2200
         },
         "geral": {
-          "n": 115,
-          "mediana": 1800,
-          "min": 1300,
-          "max": 2800
+          "n": 32,
+          "mediana": 1950,
+          "min": 1650,
+          "max": 2550
         }
       },
       "novo": {
@@ -159,12 +160,12 @@
           "min": null
         },
         "ml": {
-          "n": 7,
+          "n": 8,
           "min": 2427
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3060-ti_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3060-ti_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-3060-ti",
         "amazon": "https://www.amazon.com.br/s?k=rtx%203060%20ti%20placa%20de%20video"
       }
@@ -191,16 +192,16 @@
           "max": 3299
         },
         "olx": {
-          "n": 62,
-          "mediana": 1775,
-          "min": 1299,
-          "max": 2900
+          "n": 7,
+          "mediana": 1900,
+          "min": 1500,
+          "max": 2599
         },
         "geral": {
-          "n": 80,
-          "mediana": 1800,
-          "min": 1299,
-          "max": 2900
+          "n": 26,
+          "mediana": 1900,
+          "min": 1500,
+          "max": 3299
         }
       },
       "novo": {
@@ -209,12 +210,12 @@
           "min": 2354
         },
         "ml": {
-          "n": 33,
+          "n": 34,
           "min": 1670
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3060_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-3060_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-3060",
         "amazon": "https://www.amazon.com.br/s?k=rtx%203060%20placa%20de%20video"
       }
@@ -238,16 +239,16 @@
           "max": 1799
         },
         "olx": {
-          "n": 69,
-          "mediana": 1299,
-          "min": 650,
-          "max": 2100
+          "n": 11,
+          "mediana": 1290,
+          "min": 799,
+          "max": 1500
         },
         "geral": {
-          "n": 74,
+          "n": 16,
           "mediana": 1300,
-          "min": 650,
-          "max": 2100
+          "min": 799,
+          "max": 1799
         }
       },
       "novo": {
@@ -261,7 +262,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-2060-super_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-2060-super_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-2060-super",
         "amazon": "https://www.amazon.com.br/s?k=rtx%202060%20super%20placa%20de%20video"
       }
@@ -285,16 +286,16 @@
           "max": 1800
         },
         "olx": {
-          "n": 67,
-          "mediana": 1200,
+          "n": 7,
+          "mediana": 1220,
           "min": 850,
-          "max": 2150
+          "max": 1450
         },
         "geral": {
-          "n": 96,
-          "mediana": 1200,
+          "n": 36,
+          "mediana": 1350,
           "min": 850,
-          "max": 2150
+          "max": 1800
         }
       },
       "novo": {
@@ -308,7 +309,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rtx-2060_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rtx-2060_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rtx-2060",
         "amazon": "https://www.amazon.com.br/s?k=rtx%202060%20placa%20de%20video"
       }
@@ -330,16 +331,16 @@
           "max": 1699
         },
         "olx": {
-          "n": 24,
-          "mediana": 1500,
+          "n": 6,
+          "mediana": 1600,
           "min": 1000,
-          "max": 2000
+          "max": 1700
         },
         "geral": {
-          "n": 27,
-          "mediana": 1500,
+          "n": 9,
+          "mediana": 1600,
           "min": 1000,
-          "max": 2000
+          "max": 1700
         }
       },
       "novo": {
@@ -353,7 +354,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rx-6600-xt_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rx-6600-xt_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rx-6600-xt",
         "amazon": "https://www.amazon.com.br/s?k=rx%206600%20xt%20placa%20de%20video"
       }
@@ -379,15 +380,15 @@
           "max": 2332
         },
         "olx": {
-          "n": 72,
+          "n": 8,
           "mediana": 1300,
-          "min": 700,
-          "max": 2100
+          "min": 1199,
+          "max": 1500
         },
         "geral": {
-          "n": 83,
-          "mediana": 1300,
-          "min": 700,
+          "n": 19,
+          "mediana": 1350,
+          "min": 1199,
           "max": 2332
         }
       },
@@ -397,12 +398,12 @@
           "min": 1720
         },
         "ml": {
-          "n": 23,
+          "n": 24,
           "min": 1699
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rx-6600_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rx-6600_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rx-6600",
         "amazon": "https://www.amazon.com.br/s?k=rx%206600%20placa%20de%20video"
       }
@@ -426,15 +427,15 @@
           "max": 1800
         },
         "olx": {
-          "n": 85,
-          "mediana": 1000,
-          "min": 500,
-          "max": 1800
+          "n": 10,
+          "mediana": 1050,
+          "min": 899,
+          "max": 1300
         },
         "geral": {
-          "n": 115,
-          "mediana": 1000,
-          "min": 500,
+          "n": 40,
+          "mediana": 1150,
+          "min": 850,
           "max": 1800
         }
       },
@@ -449,7 +450,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/gtx-1660-super_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/gtx-1660-super_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/gtx-1660-super",
         "amazon": "https://www.amazon.com.br/s?k=gtx%201660%20super%20placa%20de%20video"
       }
@@ -472,15 +473,15 @@
           "max": 1250
         },
         "olx": {
-          "n": 73,
-          "mediana": 700,
-          "min": 409,
-          "max": 1197
+          "n": 8,
+          "mediana": 690,
+          "min": 550,
+          "max": 900
         },
         "geral": {
-          "n": 115,
-          "mediana": 750,
-          "min": 409,
+          "n": 50,
+          "mediana": 812,
+          "min": 450,
           "max": 1250
         }
       },
@@ -490,12 +491,12 @@
           "min": 1189
         },
         "ml": {
-          "n": 13,
+          "n": 16,
           "min": 1099
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/gtx-1650_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/gtx-1650_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/gtx-1650",
         "amazon": "https://www.amazon.com.br/s?k=gtx%201650%20placa%20de%20video"
       }
@@ -515,22 +516,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 25,
+          "n": 24,
           "mediana": 850,
           "min": 480,
           "max": 1030
         },
         "olx": {
-          "n": 80,
-          "mediana": 680,
-          "min": 350,
-          "max": 1200
+          "n": 8,
+          "mediana": 590,
+          "min": 450,
+          "max": 750
         },
         "geral": {
-          "n": 105,
-          "mediana": 700,
-          "min": 350,
-          "max": 1200
+          "n": 32,
+          "mediana": 750,
+          "min": 450,
+          "max": 1030
         }
       },
       "novo": {
@@ -544,7 +545,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rx-580_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rx-580_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rx-580",
         "amazon": "https://www.amazon.com.br/s?k=rx%20580%20placa%20de%20video"
       }
@@ -591,7 +592,7 @@
         }
       },
       "links": {
-        "ml_novo": "https://lista.mercadolivre.com.br/rx-570_ITEM*CONDITION_2230284",
+        "ml_novo": "https://lista.mercadolivre.com.br/rx-570_ITEM*CONDITION_2230284?matt_word=caioeps&matt_tool=52559099",
         "kabum": "https://www.kabum.com.br/busca/rx-570",
         "amazon": "https://www.amazon.com.br/s?k=rx%20570%20placa%20de%20video"
       }
