@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PreçoJusto Hardware — o preço justo de GPU usada, direto no anúncio</title>
+<meta name="description" content="Mediana real do preço de placas de vídeo usadas no Brasil (Mercado Livre + OLX), atualizada diariamente. Extensão que mostra se o preço do anúncio tá justo.">
+<meta property="og:title" content="PreçoJusto Hardware">
+<meta property="og:description" content="O preço justo de hardware usado, direto no anúncio. Medianas reais de GPU usada no BR, atualizadas todo dia.">
+<meta property="og:type" content="website">
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><g fill="%232ECC71"><rect x="88" y="26" width="14" height="42" rx="7"/><rect x="121" y="26" width="14" height="42" rx="7"/><rect x="154" y="26" width="14" height="42" rx="7"/><rect x="88" y="188" width="14" height="42" rx="7"/><rect x="121" y="188" width="14" height="42" rx="7"/><rect x="154" y="188" width="14" height="42" rx="7"/><rect x="26" y="88" width="42" height="14" rx="7"/><rect x="26" y="121" width="42" height="14" rx="7"/><rect x="26" y="154" width="42" height="14" rx="7"/><rect x="188" y="88" width="42" height="14" rx="7"/><rect x="188" y="121" width="42" height="14" rx="7"/><rect x="188" y="154" width="42" height="14" rx="7"/></g><rect x="62" y="62" width="132" height="132" rx="20" fill="%2316213E" stroke="%232ECC71" stroke-width="12"/><path d="M94 133 L121 160 L163 105" fill="none" stroke="%232ECC71" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-900:#0D1321; --navy-800:#16213E; --navy-600:#24345E; --linha:#2A3A63;
+  --verde:#2ECC71; --verde-claro:#58E39B; --amarelo:#F1C40F; --vermelho:#E74C3C;
+  --branco:#FFF; --texto2:#C9D2E3; --muted:#8A96AB;
+  --ft:'Space Grotesk','Segoe UI',sans-serif; --fx:'Inter','Segoe UI',sans-serif;
+  --fn:'JetBrains Mono',Consolas,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy-900);color:var(--texto2);font-family:var(--fx);font-size:16px;line-height:1.65}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px 80px}
+h1,h2,h3{font-family:var(--ft);color:var(--branco);line-height:1.15}
+a{color:var(--verde-claro)}
+.hero{text-align:center;padding:64px 0 26px}
+.hero h1{font-size:clamp(1.7rem,4.6vw,2.9rem);margin:.55em 0 .3em}
+.hero h1 .g{color:var(--verde)}
+.hero p.sub{font-size:1.12rem;max-width:640px;margin:0 auto}
+.badges{margin-top:20px}
+.badge{display:inline-block;background:var(--navy-800);border:1px solid var(--linha);border-radius:999px;padding:7px 16px;margin:4px;font-size:.85rem}
+.badge b{color:var(--verde-claro)}
+.card{background:var(--navy-800);border:1px solid var(--linha);border-radius:16px;padding:24px}
+h2{font-size:1.45rem;margin-top:2.6em;padding-bottom:.3em;border-bottom:2px solid var(--linha)}
+.tw{overflow-x:auto;border:1px solid var(--linha);border-radius:14px;margin-top:16px}
+table{border-collapse:collapse;width:100%;font-size:.94rem;min-width:680px}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--linha)}
+th{background:var(--navy-800);color:var(--branco);font-family:var(--ft);position:sticky;top:0}
+tbody tr:nth-child(even){background:rgba(255,255,255,.025)}
+td.num{font-family:var(--fn);font-weight:600;color:var(--verde-claro);white-space:nowrap}
+td.num small{color:var(--muted);font-weight:400;font-family:var(--fx)}
+.lojas a{display:inline-block;background:var(--navy-600);border:1px solid var(--linha);color:var(--texto2);text-decoration:none;border-radius:8px;padding:3px 10px;font-size:.8rem;margin:2px 4px 2px 0;white-space:nowrap}
+.lojas a:hover{border-color:var(--verde)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:16px}
+.grid h3{margin:.1em 0 .4em;color:var(--verde-claro);font-size:1.05rem}
+.muted{color:var(--muted);font-size:.88rem}
+.cta{display:inline-block;background:var(--verde);color:#0D1321;font-family:var(--ft);font-weight:700;text-decoration:none;border-radius:12px;padding:13px 26px;margin-top:18px}
+.cta.sec{background:var(--navy-600);color:var(--texto2);border:1px solid var(--linha)}
+footer{margin-top:70px;padding-top:24px;border-top:1px solid var(--linha);font-size:.82rem;color:var(--muted)}
+#status{text-align:center;padding:26px;color:var(--muted)}
+.logo{display:flex;align-items:center;justify-content:center;gap:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="logo">
+      <svg viewBox="0 0 256 256" width="72" height="72" aria-hidden="true">
+        <g fill="#2ECC71">
+          <rect x="88" y="26" width="14" height="42" rx="7"/><rect x="121" y="26" width="14" height="42" rx="7"/><rect x="154" y="26" width="14" height="42" rx="7"/>
+          <rect x="88" y="188" width="14" height="42" rx="7"/><rect x="121" y="188" width="14" height="42" rx="7"/><rect x="154" y="188" width="14" height="42" rx="7"/>
+          <rect x="26" y="88" width="42" height="14" rx="7"/><rect x="26" y="121" width="42" height="14" rx="7"/><rect x="26" y="154" width="42" height="14" rx="7"/>
+          <rect x="188" y="88" width="42" height="14" rx="7"/><rect x="188" y="121" width="42" height="14" rx="7"/><rect x="188" y="154" width="42" height="14" rx="7"/>
+        </g>
+        <rect x="62" y="62" width="132" height="132" rx="20" fill="#16213E" stroke="#2ECC71" stroke-width="10"/>
+        <path d="M94 133 L121 160 L163 105" fill="none" stroke="#2ECC71" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span style="font-family:var(--ft);font-weight:700;font-size:1.6rem;color:#fff">Preço<span style="color:var(--verde)">Justo</span> <span style="font-weight:500;letter-spacing:5px;font-size:.75rem;color:var(--texto2)">HARDWARE</span></span>
+    </div>
+    <h1>O <span class="g">preço justo</span> de hardware usado,<br>direto no anúncio.</h1>
+    <p class="sub">Chega de achismo na hora de comprar GPU usada. A gente coleta anúncios reais do
+    Mercado Livre e da OLX <b style="color:#fff">todos os dias</b> e calcula a mediana real do mercado —
+    e a nossa extensão mostra isso dentro do próprio anúncio.</p>
+    <div class="badges">
+      <span class="badge">📊 Dados atualizados <b>diariamente</b></span>
+      <span class="badge" id="badge-data">🗓️ carregando…</span>
+      <span class="badge">🇧🇷 Mercado brasileiro</span>
+    </div>
+    <div>
+      <a class="cta" href="#tabela">Ver a tabela de preços</a>
+      <a class="cta sec" href="https://github.com/caio-eps/precojusto-dados" rel="noopener">Dados abertos no GitHub</a>
+    </div>
+    <p class="muted" style="margin-top:14px">🧩 Extensão pro navegador em beta — em breve na Chrome Web Store.</p>
+  </div>
+
+  <h2 id="tabela">📊 Tabela do preço justo — GPU usada no BR</h2>
+  <p class="muted">Mediana do preço praticado em anúncios de <b>usado</b> (Mercado Livre e OLX) e o
+  “novo a partir de” pra comparação. <span id="info-amostra"></span></p>
+  <div id="status">Carregando dados…</div>
+  <div class="tw" id="tw" style="display:none">
+    <table>
+      <thead>
+        <tr><th>Modelo</th><th>Usado — ML</th><th>Usado — OLX</th><th>Novo a partir de</th><th>Ver nas lojas</th></tr>
+      </thead>
+      <tbody id="corpo"></tbody>
+    </table>
+  </div>
+
+  <h2>🔍 Como funciona</h2>
+  <div class="grid">
+    <div class="card"><h3>1. Coletamos todo dia</h3>Nosso robô varre anúncios públicos de GPU usada no
+      Mercado Livre e na OLX, diariamente, e separa por modelo (RTX 3060 ≠ 3060 Ti ≠ 4060).</div>
+    <div class="card"><h3>2. Mediana, não média</h3>Usamos a <b style="color:#fff">mediana</b> — o valor
+      do meio do mercado — que ignora tanto o anúncio abusado quanto o “bom demais pra ser verdade”.
+      Bundles, PCs completos e acessórios são filtrados.</div>
+    <div class="card"><h3>3. Honestidade primeiro</h3>Modelo com poucos anúncios? A gente mostra
+      “amostra insuficiente” em vez de inventar número. Toda estimativa vem com o tamanho da amostra (n).</div>
+  </div>
+
+  <h2>🧩 A extensão</h2>
+  <div class="card">
+    <p style="margin-top:0">O site mostra a tabela — mas a mágica é a <b style="color:#fff">extensão</b>:
+    você abre um anúncio de GPU usada no Mercado Livre ou na OLX e um selo aparece na hora dizendo se o
+    preço tá <b style="color:var(--verde)">justo</b>, <b style="color:var(--amarelo)">um pouco acima</b>
+    ou <b style="color:var(--vermelho)">acima</b> da mediana — com alertas de atenção e o preço do novo
+    pra comparar.</p>
+    <p class="muted">Em fase beta com testadores. Quer testar? Fala com a gente pelo GitHub. Em breve na Chrome Web Store.</p>
+  </div>
+
+  <footer>
+    <p><b style="color:var(--texto2)">Transparência:</b> os valores são estimativas calculadas a partir de
+    anúncios públicos — não são preço oficial nem recomendação de compra. Amostras pequenas são marcadas.
+    Alguns links de loja podem ser links de afiliado, que ajudam a manter o projeto — isso nunca muda o
+    preço pra você nem influencia as medianas.</p>
+    <p>© 2026 PreçoJusto Hardware · dados abertos em
+    <a href="https://github.com/caio-eps/precojusto-dados" rel="noopener">github.com/caio-eps/precojusto-dados</a></p>
+  </footer>
+</div>
+
+<script>
+const brl = v => "R$ " + v.toLocaleString("pt-BR");
+fetch("medianas.json").then(r => r.json()).then(d => {
+  const tag = (d.amazon_tag || "").trim();
+  const dataBadge = document.getElementById("badge-data");
+  dataBadge.innerHTML = "🗓️ dados de <b>" + (d.gerado_em || "?").split("-").reverse().join("/") + "</b>";
+  const corpo = document.getElementById("corpo");
+  let totalN = 0;
+  (d.modelos || []).forEach(m => {
+    const f = m.fontes || {}, nv = m.novo || {}, lk = m.links || {};
+    const ml = f.ml || {}, olx = f.olx || {}, geral = f.geral || {};
+    if (!geral.mediana) return;              // sem dado confiável → não lista
+    totalN += geral.n || 0;
+    const cel = s => (s && s.mediana && s.n >= 15)
+      ? `<td class="num">${brl(s.mediana)} <small>n=${s.n}</small></td>`
+      : `<td class="num"><small>—</small></td>`;
+    const novos = [];
+    if (nv.kabum && nv.kabum.min) novos.push({v: nv.kabum.min, l: "Kabum"});
+    if (nv.ml && nv.ml.min) novos.push({v: nv.ml.min, l: "ML"});
+    novos.sort((a,b) => a.v - b.v);
+    const novoCel = novos.length
+      ? `<td class="num">${brl(novos[0].v)} <small>(${novos[0].l})</small></td>`
+      : `<td class="num"><small>—</small></td>`;
+    let amazon = lk.amazon || "";
+    if (amazon && tag) amazon += (amazon.includes("?") ? "&" : "?") + "tag=" + encodeURIComponent(tag);
+    const lojas = [
+      lk.kabum ? `<a href="${lk.kabum}" rel="noopener sponsored" target="_blank">Kabum</a>` : "",
+      lk.ml_novo ? `<a href="${lk.ml_novo}" rel="noopener sponsored" target="_blank">Mercado Livre</a>` : "",
+      amazon ? `<a href="${amazon}" rel="noopener sponsored" target="_blank">Amazon</a>` : "",
+    ].join("");
+    corpo.insertAdjacentHTML("beforeend",
+      `<tr><td style="color:#fff;font-weight:600">${m.nome}</td>${cel(ml)}${cel(olx)}${novoCel}<td class="lojas">${lojas}</td></tr>`);
+  });
+  document.getElementById("info-amostra").textContent =
+    `Base atual: ${totalN.toLocaleString("pt-BR")} anúncios analisados.`;
+  document.getElementById("status").style.display = "none";
+  document.getElementById("tw").style.display = "";
+}).catch(() => {
+  document.getElementById("status").textContent = "Não consegui carregar os dados agora — tenta de novo em instantes.";
+});
+</script>
+</body>
+</html>
