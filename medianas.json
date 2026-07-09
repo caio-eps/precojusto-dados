@@ -1,0 +1,419 @@
+{
+  "gerado_em": "2026-07-08",
+  "fonte": "Mercado Livre + OLX (mercado usado)",
+  "moeda": "BRL",
+  "exclude_global": [
+    "computador",
+    "pcgamer",
+    "pcgamer",
+    "gabinete",
+    "monitor",
+    "processador",
+    "placamae",
+    "placa-mae",
+    "placamãe",
+    "b450",
+    "b550",
+    "h510",
+    "a520",
+    "x570",
+    "kitupgrade",
+    "kitupgrade",
+    "setupcompleto",
+    "ryzen",
+    "intelcore",
+    "corei5",
+    "corei7",
+    "corei3",
+    "espelho",
+    "chaveiro",
+    "adesivo"
+  ],
+  "modelos": [
+    {
+      "nome": "RTX 4060",
+      "inc": [
+        "4060"
+      ],
+      "exc": [
+        "4060ti",
+        "3060",
+        "4070"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 8,
+          "mediana": 2100,
+          "min": 1990,
+          "max": 3125
+        },
+        "olx": {
+          "n": 71,
+          "mediana": 1999,
+          "min": 1600,
+          "max": 2799
+        },
+        "geral": {
+          "n": 79,
+          "mediana": 2000,
+          "min": 1600,
+          "max": 3125
+        }
+      }
+    },
+    {
+      "nome": "RTX 3070",
+      "inc": [
+        "3070"
+      ],
+      "exc": [
+        "3070ti",
+        "3060",
+        "3080",
+        "4070"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 29,
+          "mediana": 2499,
+          "min": 2100,
+          "max": 4006
+        },
+        "olx": {
+          "n": 70,
+          "mediana": 2000,
+          "min": 1400,
+          "max": 3000
+        },
+        "geral": {
+          "n": 98,
+          "mediana": 2199,
+          "min": 1400,
+          "max": 3600
+        }
+      }
+    },
+    {
+      "nome": "RTX 3060 Ti",
+      "inc": [
+        "3060ti"
+      ],
+      "exc": [
+        "4060",
+        "5060"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 20,
+          "mediana": 2100,
+          "min": 1750,
+          "max": 2550
+        },
+        "olx": {
+          "n": 96,
+          "mediana": 1799,
+          "min": 1300,
+          "max": 2800
+        },
+        "geral": {
+          "n": 116,
+          "mediana": 1800,
+          "min": 1300,
+          "max": 2800
+        }
+      }
+    },
+    {
+      "nome": "RTX 3060",
+      "inc": [
+        "3060"
+      ],
+      "exc": [
+        "3060ti",
+        "4060",
+        "5060",
+        "2060",
+        "3050",
+        "3070",
+        "3080"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 19,
+          "mediana": 1900,
+          "min": 1600,
+          "max": 3299
+        },
+        "olx": {
+          "n": 62,
+          "mediana": 1700,
+          "min": 1000,
+          "max": 2900
+        },
+        "geral": {
+          "n": 80,
+          "mediana": 1800,
+          "min": 1000,
+          "max": 2900
+        }
+      }
+    },
+    {
+      "nome": "RTX 2060 Super",
+      "inc": [
+        "2060",
+        "super"
+      ],
+      "exc": [
+        "2070",
+        "2080",
+        "3060"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 5,
+          "mediana": 1430,
+          "min": 1250,
+          "max": 1799
+        },
+        "olx": {
+          "n": 65,
+          "mediana": 1300,
+          "min": 700,
+          "max": 2100
+        },
+        "geral": {
+          "n": 70,
+          "mediana": 1300,
+          "min": 700,
+          "max": 2100
+        }
+      }
+    },
+    {
+      "nome": "RTX 2060",
+      "inc": [
+        "2060"
+      ],
+      "exc": [
+        "super",
+        "2070",
+        "3060",
+        "1660"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 28,
+          "mediana": 1374,
+          "min": 1100,
+          "max": 2499
+        },
+        "olx": {
+          "n": 69,
+          "mediana": 1170,
+          "min": 900,
+          "max": 1799
+        },
+        "geral": {
+          "n": 97,
+          "mediana": 1200,
+          "min": 900,
+          "max": 2150
+        }
+      }
+    },
+    {
+      "nome": "RX 6600 XT",
+      "inc": [
+        "6600xt"
+      ],
+      "exc": [
+        "6650",
+        "6700"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 3,
+          "mediana": 1500,
+          "min": 1400,
+          "max": 1699
+        },
+        "olx": {
+          "n": 24,
+          "mediana": 1500,
+          "min": 1000,
+          "max": 2000
+        },
+        "geral": {
+          "n": 27,
+          "mediana": 1500,
+          "min": 1000,
+          "max": 2000
+        }
+      }
+    },
+    {
+      "nome": "RX 6600",
+      "inc": [
+        "6600"
+      ],
+      "exc": [
+        "6600xt",
+        "6650",
+        "6700",
+        "6800",
+        "6900",
+        "5600"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 7,
+          "mediana": 1800,
+          "min": 1250,
+          "max": 2332
+        },
+        "olx": {
+          "n": 80,
+          "mediana": 1300,
+          "min": 700,
+          "max": 2100
+        },
+        "geral": {
+          "n": 87,
+          "mediana": 1300,
+          "min": 700,
+          "max": 2332
+        }
+      }
+    },
+    {
+      "nome": "GTX 1660 Super",
+      "inc": [
+        "1660",
+        "super"
+      ],
+      "exc": [
+        "ti",
+        "1650",
+        "2060"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 32,
+          "mediana": 1174,
+          "min": 830,
+          "max": 1800
+        },
+        "olx": {
+          "n": 82,
+          "mediana": 994,
+          "min": 650,
+          "max": 1560
+        },
+        "geral": {
+          "n": 115,
+          "mediana": 1000,
+          "min": 650,
+          "max": 1800
+        }
+      }
+    },
+    {
+      "nome": "GTX 1650",
+      "inc": [
+        "1650"
+      ],
+      "exc": [
+        "1660",
+        "super",
+        "1050"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 40,
+          "mediana": 860,
+          "min": 450,
+          "max": 1250
+        },
+        "olx": {
+          "n": 75,
+          "mediana": 650,
+          "min": 409,
+          "max": 1000
+        },
+        "geral": {
+          "n": 116,
+          "mediana": 734,
+          "min": 409,
+          "max": 1250
+        }
+      }
+    },
+    {
+      "nome": "RX 580",
+      "inc": [
+        "580"
+      ],
+      "exc": [
+        "5800",
+        "5700",
+        "480",
+        "570",
+        "5600",
+        "588"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 26,
+          "mediana": 864,
+          "min": 490,
+          "max": 1030
+        },
+        "olx": {
+          "n": 81,
+          "mediana": 650,
+          "min": 350,
+          "max": 1099
+        },
+        "geral": {
+          "n": 108,
+          "mediana": 699,
+          "min": 350,
+          "max": 1200
+        }
+      }
+    },
+    {
+      "nome": "RX 570",
+      "inc": [
+        "570"
+      ],
+      "exc": [
+        "5700",
+        "580",
+        "5600",
+        "470"
+      ],
+      "fontes": {
+        "ml": {
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
+        },
+        "olx": {
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
+        },
+        "geral": {
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
+        }
+      }
+    }
+  ]
+}
