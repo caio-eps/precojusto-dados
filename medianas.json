@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-07-12",
+  "gerado_em": "2026-07-23",
   "fonte": "Mercado Livre + OLX (usado) · Kabum + ML (novo)",
   "moeda": "BRL",
   "afiliado_ativo": true,
@@ -44,22 +44,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 10,
-          "mediana": 2100,
-          "min": 1990,
-          "max": 3125
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 11,
-          "mediana": 2000,
-          "min": 1800,
-          "max": 2300
+          "n": 8,
+          "mediana": 1970,
+          "min": 1600,
+          "max": 2250
         },
         "geral": {
-          "n": 21,
-          "mediana": 2000,
-          "min": 1800,
-          "max": 3125
+          "n": 8,
+          "mediana": 1970,
+          "min": 1600,
+          "max": 2250
         }
       },
       "novo": {
@@ -69,9 +69,9 @@
           "url": null
         },
         "ml": {
-          "n": 11,
-          "min": 3259,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-zotac-rtx-4060-twin-edge-geforce-oc-8gb-gddr6/p/MLB36548918?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -93,22 +93,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 29,
-          "mediana": 2499,
-          "min": 2100,
-          "max": 4006
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
           "n": 7,
           "mediana": 2000,
-          "min": 1500,
-          "max": 2900
+          "min": 1300,
+          "max": 2290
         },
         "geral": {
-          "n": 36,
-          "mediana": 2425,
-          "min": 1500,
-          "max": 4006
+          "n": 7,
+          "mediana": 2000,
+          "min": 1300,
+          "max": 2290
         }
       },
       "novo": {
@@ -118,9 +118,9 @@
           "url": null
         },
         "ml": {
-          "n": 8,
-          "min": 2199,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-mancer-geforce-rtx-3070-heimdall-x-8gb/p/MLB74706442?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -140,22 +140,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 20,
-          "mediana": 2200,
-          "min": 1750,
-          "max": 2700
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
           "n": 10,
-          "mediana": 1750,
-          "min": 1650,
-          "max": 2800
+          "mediana": 1900,
+          "min": 1600,
+          "max": 2500
         },
         "geral": {
-          "n": 30,
-          "mediana": 2100,
-          "min": 1650,
-          "max": 2800
+          "n": 10,
+          "mediana": 1900,
+          "min": 1600,
+          "max": 2500
         }
       },
       "novo": {
@@ -165,9 +165,9 @@
           "url": null
         },
         "ml": {
-          "n": 5,
-          "min": 2200,
-          "url": "https://produto.mercadolivre.com.br/MLB-6706762572-zotac-gaming-geforce-rtx-3060-ti-twin-edge-8gb-_JM?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -192,34 +192,34 @@
       ],
       "fontes": {
         "ml": {
-          "n": 20,
-          "mediana": 1900,
-          "min": 1550,
-          "max": 3299
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
           "n": 8,
-          "mediana": 1550,
-          "min": 1299,
-          "max": 2100
+          "mediana": 1750,
+          "min": 1400,
+          "max": 1900
         },
         "geral": {
-          "n": 28,
-          "mediana": 1874,
-          "min": 1299,
-          "max": 3299
+          "n": 8,
+          "mediana": 1750,
+          "min": 1400,
+          "max": 1900
         }
       },
       "novo": {
         "kabum": {
-          "n": 4,
-          "min": 2354,
+          "n": 3,
+          "min": 2335,
           "url": "https://www.kabum.com.br/produto/543498/placa-de-video-rtx-3060-gigabyte-gaming-oc-8gb-gddr6-128bits?pjh=1"
         },
         "ml": {
-          "n": 17,
-          "min": 2099,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-gigabyte-geforce-rtx-3060-gaming-oc-v2-8gb/up/MLBU3952262156?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -241,22 +241,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 6,
-          "mediana": 1565,
-          "min": 1250,
-          "max": 1799
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 7,
-          "mediana": 1500,
-          "min": 799,
-          "max": 1600
+          "n": 10,
+          "mediana": 1275,
+          "min": 1070,
+          "max": 1500
         },
         "geral": {
-          "n": 13,
-          "mediana": 1500,
-          "min": 799,
-          "max": 1799
+          "n": 10,
+          "mediana": 1275,
+          "min": 1070,
+          "max": 1500
         }
       },
       "novo": {
@@ -266,9 +266,9 @@
           "url": "https://www.kabum.com.br/produto/1022085/placa-de-video-afox-geforce-rtx-2060-super-8gb-gddr6-256-bits-af2060s-8192d6h4-v2?pjh=1"
         },
         "ml": {
-          "n": 1,
-          "min": 1667,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-mancer-geforce-rtx-2060-super-heimdall-x-8gb/p/MLB69388102?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -290,34 +290,34 @@
       ],
       "fontes": {
         "ml": {
-          "n": 30,
-          "mediana": 1350,
-          "min": 1100,
-          "max": 1800
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 8,
-          "mediana": 1150,
-          "min": 1000,
-          "max": 1450
+          "n": 9,
+          "mediana": 1100,
+          "min": 980,
+          "max": 1300
         },
         "geral": {
-          "n": 38,
-          "mediana": 1324,
-          "min": 1000,
-          "max": 1800
+          "n": 9,
+          "mediana": 1100,
+          "min": 980,
+          "max": 1300
         }
       },
       "novo": {
         "kabum": {
-          "n": 2,
-          "min": 1729,
+          "n": 1,
+          "min": 1411,
           "url": "https://www.kabum.com.br/produto/348098/placa-de-video-pcyes-nvidia-rtx-2060-graffiti-series-6gb-gddr6-preto-pa2060rtx6gdf?pjh=1"
         },
         "ml": {
-          "n": 4,
-          "min": 1413,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-mancer-geforce-rtx-2060-heimdall-6gb-gddr6/p/MLB27484666?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -337,21 +337,21 @@
       ],
       "fontes": {
         "ml": {
-          "n": 3,
-          "mediana": 1500,
-          "min": 1400,
-          "max": 1699
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
           "n": 6,
-          "mediana": 1600,
-          "min": 1400,
+          "mediana": 1550,
+          "min": 1350,
           "max": 1700
         },
         "geral": {
-          "n": 9,
-          "mediana": 1600,
-          "min": 1400,
+          "n": 6,
+          "mediana": 1550,
+          "min": 1350,
           "max": 1700
         }
       },
@@ -388,34 +388,34 @@
       ],
       "fontes": {
         "ml": {
-          "n": 9,
-          "mediana": 1649,
-          "min": 1049,
-          "max": 2332
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 9,
-          "mediana": 1350,
-          "min": 1150,
-          "max": 1595
+          "n": 11,
+          "mediana": 1300,
+          "min": 1000,
+          "max": 1600
         },
         "geral": {
-          "n": 18,
-          "mediana": 1450,
-          "min": 1049,
-          "max": 2332
+          "n": 11,
+          "mediana": 1300,
+          "min": 1000,
+          "max": 1600
         }
       },
       "novo": {
         "kabum": {
           "n": 2,
-          "min": 1720,
+          "min": 1632,
           "url": "https://www.kabum.com.br/produto/727722/placa-de-video-asrock-rx6600-8gb-clw-gddr6-128-bits-3x-dp-1x-hdmi-rx6600-clw-8g?pjh=1"
         },
         "ml": {
-          "n": 17,
-          "min": 1699,
-          "url": "https://produto.mercadolivre.com.br/MLB-6937522294-rx6600-amd-placa-de-video-amd-radeon-8g-duex-_JM?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -437,34 +437,34 @@
       ],
       "fontes": {
         "ml": {
-          "n": 34,
-          "mediana": 1174,
-          "min": 700,
-          "max": 1800
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 9,
-          "mediana": 1000,
-          "min": 850,
-          "max": 1300
+          "n": 11,
+          "mediana": 949,
+          "min": 800,
+          "max": 1250
         },
         "geral": {
-          "n": 43,
-          "mediana": 1100,
-          "min": 700,
-          "max": 1800
+          "n": 11,
+          "mediana": 949,
+          "min": 800,
+          "max": 1250
         }
       },
       "novo": {
         "kabum": {
           "n": 3,
-          "min": 1176,
+          "min": 1294,
           "url": "https://www.kabum.com.br/produto/998335/placa-de-video-pcyes-nvidia-geforce-gtx-1660-super-gddr6-6gb-dual-192-bits-pvx1660s62f?pjh=1"
         },
         "ml": {
-          "n": 9,
-          "min": 1302,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-pcyes-gtx-1660-super-6gb-gddr6-dual-fan/p/MLB66620301?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -485,34 +485,34 @@
       ],
       "fontes": {
         "ml": {
-          "n": 42,
-          "mediana": 850,
-          "min": 500,
-          "max": 1250
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 7,
+          "n": 9,
           "mediana": 700,
           "min": 500,
-          "max": 850
+          "max": 1000
         },
         "geral": {
-          "n": 49,
-          "mediana": 800,
+          "n": 9,
+          "mediana": 700,
           "min": 500,
-          "max": 1250
+          "max": 1000
         }
       },
       "novo": {
         "kabum": {
-          "n": 2,
-          "min": 1389,
-          "url": "https://www.kabum.com.br/produto/154435/placa-de-video-pcyes-nvidia-geforce-graffiti-series-gtx-1650-4gb-gddr6-8gbps-pa1650412820dr6?pjh=1"
+          "n": 1,
+          "min": 1788,
+          "url": "https://www.kabum.com.br/produto/1022083/placa-de-video-afox-geforce-gtx-1650-dual-fan-4gb-gddr6-128-bits-af1650-4096d6h7-v2?pjh=1"
         },
         "ml": {
-          "n": 11,
-          "min": 950,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-nvidia-zotac-gaming-geforce-gtx-16-series-gtx-1650-zt-t16520f-10l-oc-edition-4gb/p/MLB20903518?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
@@ -536,22 +536,22 @@
       ],
       "fontes": {
         "ml": {
-          "n": 23,
-          "mediana": 850,
-          "min": 499,
-          "max": 1030
+          "n": 0,
+          "mediana": null,
+          "min": null,
+          "max": null
         },
         "olx": {
-          "n": 12,
-          "mediana": 690,
-          "min": 500,
-          "max": 990
+          "n": 11,
+          "mediana": 650,
+          "min": 450,
+          "max": 890
         },
         "geral": {
-          "n": 35,
-          "mediana": 750,
-          "min": 499,
-          "max": 1030
+          "n": 11,
+          "mediana": 650,
+          "min": 450,
+          "max": 890
         }
       },
       "novo": {
@@ -561,9 +561,9 @@
           "url": "https://www.kabum.com.br/produto/531113/placa-de-video-duex-radeon-amd-8gb-ddr5-rx580-8gd5?pjh=1"
         },
         "ml": {
-          "n": 4,
-          "min": 865,
-          "url": "https://www.mercadolivre.com.br/placa-de-video-mancer-radeon-rx-580-x-8gb-gddr5-256-bit/p/MLB68919705?matt_word=caioeps&matt_tool=52559099&pjh=1"
+          "n": 0,
+          "min": null,
+          "url": null
         }
       },
       "links": {
