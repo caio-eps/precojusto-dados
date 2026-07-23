@@ -51,15 +51,15 @@
         },
         "olx": {
           "n": 8,
-          "mediana": 1970,
-          "min": 1600,
-          "max": 2250
+          "mediana": 1900,
+          "min": 1599,
+          "max": 2799
         },
         "geral": {
           "n": 8,
-          "mediana": 1970,
-          "min": 1600,
-          "max": 2250
+          "mediana": 1900,
+          "min": 1599,
+          "max": 2799
         }
       },
       "novo": {
@@ -147,13 +147,13 @@
         },
         "olx": {
           "n": 10,
-          "mediana": 1900,
+          "mediana": 1775,
           "min": 1600,
           "max": 2500
         },
         "geral": {
           "n": 10,
-          "mediana": 1900,
+          "mediana": 1775,
           "min": 1600,
           "max": 2500
         }
@@ -198,15 +198,15 @@
           "max": null
         },
         "olx": {
-          "n": 8,
+          "n": 7,
           "mediana": 1750,
-          "min": 1400,
+          "min": 1450,
           "max": 1900
         },
         "geral": {
-          "n": 8,
+          "n": 7,
           "mediana": 1750,
-          "min": 1400,
+          "min": 1450,
           "max": 1900
         }
       },
@@ -247,14 +247,14 @@
           "max": null
         },
         "olx": {
-          "n": 10,
-          "mediana": 1275,
+          "n": 11,
+          "mediana": 1300,
           "min": 1070,
           "max": 1500
         },
         "geral": {
-          "n": 10,
-          "mediana": 1275,
+          "n": 11,
+          "mediana": 1300,
           "min": 1070,
           "max": 1500
         }
@@ -297,13 +297,13 @@
         },
         "olx": {
           "n": 9,
-          "mediana": 1100,
+          "mediana": 1150,
           "min": 980,
           "max": 1300
         },
         "geral": {
           "n": 9,
-          "mediana": 1100,
+          "mediana": 1150,
           "min": 980,
           "max": 1300
         }
@@ -394,22 +394,22 @@
           "max": null
         },
         "olx": {
-          "n": 11,
-          "mediana": 1300,
-          "min": 1000,
-          "max": 1600
+          "n": 12,
+          "mediana": 1375,
+          "min": 1100,
+          "max": 1500
         },
         "geral": {
-          "n": 11,
-          "mediana": 1300,
-          "min": 1000,
-          "max": 1600
+          "n": 12,
+          "mediana": 1375,
+          "min": 1100,
+          "max": 1500
         }
       },
       "novo": {
         "kabum": {
           "n": 2,
-          "min": 1632,
+          "min": 1720,
           "url": "https://www.kabum.com.br/produto/727722/placa-de-video-asrock-rx6600-8gb-clw-gddr6-128-bits-3x-dp-1x-hdmi-rx6600-clw-8g?pjh=1"
         },
         "ml": {
@@ -443,14 +443,14 @@
           "max": null
         },
         "olx": {
-          "n": 11,
-          "mediana": 949,
+          "n": 10,
+          "mediana": 950,
           "min": 800,
           "max": 1250
         },
         "geral": {
-          "n": 11,
-          "mediana": 949,
+          "n": 10,
+          "mediana": 950,
           "min": 800,
           "max": 1250
         }
@@ -505,9 +505,9 @@
       },
       "novo": {
         "kabum": {
-          "n": 1,
-          "min": 1788,
-          "url": "https://www.kabum.com.br/produto/1022083/placa-de-video-afox-geforce-gtx-1650-dual-fan-4gb-gddr6-128-bits-af1650-4096d6h7-v2?pjh=1"
+          "n": 2,
+          "min": 1189,
+          "url": "https://www.kabum.com.br/produto/154435/placa-de-video-pcyes-nvidia-geforce-graffiti-series-gtx-1650-4gb-gddr6-8gbps-pa1650412820dr6?pjh=1"
         },
         "ml": {
           "n": 0,
@@ -545,13 +545,13 @@
           "n": 11,
           "mediana": 650,
           "min": 450,
-          "max": 890
+          "max": 990
         },
         "geral": {
           "n": 11,
           "mediana": 650,
           "min": 450,
-          "max": 890
+          "max": 990
         }
       },
       "novo": {
